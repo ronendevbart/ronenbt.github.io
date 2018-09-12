@@ -1,0 +1,109 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: rgba(225, 235, 82, 0.397);
+}
+
+.neon {
+  display: flex;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  font: normal 48px/normal "Warnes", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  text-decoration: normal;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #eeff00 , 0 0 70px #eeff00 , 0 0 80px #eeff00 , 0 0 100px #eeff00 ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.neon:hover {
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00a2ff , 0 0 70px #43abe7 , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("bgimage.jpeg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom:  3px;
+}
+
+.btn {
+  justify-content: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  transition: 1.2s;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: rgba(225, 235, 82, 0.397);
+  border-color: rgb(224, 235, 82);
+  color: rgba(190, 140, 0, 0.7);
+}
+
+.btn-primary:hover {
+  background-color: rgb(235, 232, 50);
+  border-color: rgb(235, 232, 50);
+  color: rgb(75, 83, 4);
+  margin-top: 1.2rem;
+}
+
+footer{
+	padding: 10px;
+	color: #fff;
+	background-color: black;
+  text-align: center;
+}
+
+.f-neon{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  font: normal 12px/normal "Warnes", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  text-decoration: normal;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #eeff00 , 0 0 70px #eeff00 , 0 0 80px #eeff00 , 0 0 100px #eeff00 ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.f-neon:hover {
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #e0a910 , 0 0 70px #f56709 , 0 0 80px #c94219 , 0 0 100px #c94219 ;
+  color: #f4f4f4;
+}
